@@ -127,6 +127,8 @@ button{
     transform: rotate(5deg);
     max-width: 580px;
     margin-left: 9%;
+    filter: drop-shadow(0px 0px 25px purple);
+    animation: purple 1s step-start alternate  ;
 }
 @media (width < 1024px){
     .hero{
@@ -196,6 +198,7 @@ button{
 .info__right{
     flex: 1;
     align-self: center;
+    margin-right: 200px ;
 }
 .section__up-text{
     color: aquamarine;
