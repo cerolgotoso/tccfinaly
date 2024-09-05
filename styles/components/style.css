@@ -28,7 +28,10 @@ button{
     color: inherit;
     cursor: pointer;
 }
+:root{
+    --main-color: #a402b9;
 
+}
 
 
 .header {
@@ -214,4 +217,9 @@ button{
     padding: 0.5em 2em;
     border-radius: 6px;
     color: black;
+}
+#imgdragao{
+    margin-left: 230px;
+    filter: drop-shadow(0px 0px 25px purple);
+    
 }
