@@ -71,8 +71,8 @@ button{
     
 }
 
-.bg{
-    background: linear-gradient(150deg,rgba(59, 12, 90, 0.541),rgba(0, 0, 0, 0.89));
+body{
+    background: linear-gradient(150deg,rgb(51, 2, 83),rgb(0, 0, 0));
 }
 
 .hero{
