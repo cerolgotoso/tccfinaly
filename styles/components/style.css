@@ -193,27 +193,19 @@ body{
     overflow: hidden;
     max-width: px;
     margin-inline: auto;
-    background-color: bisque;
+    
+    
 }
-.info-wrapper2{
-    display: flex;
-    align-items: center;
-    padding-inline: 1.25rem;
-    gap: 1.5rem;
-    margin-top: 7rem;
-    flex-wrap: wrap;
 
-}
 .info__left{
     flex: 1;
-    
+
 }
 .info__right{
     flex: 1;
     align-self: center;
-    margin-right: px ;
-    background-color: black;
-   
+    margin-right: 6px ;
+    
     
 }
 .section__up-text{
@@ -242,5 +234,36 @@ body{
 #imgdragao{
     height: 650px;
     filter: drop-shadow(0px 0px 25px purple);
-    
+}
+footer {
+    filter: drop-shadow(0px 0px 25px purple);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.social-media li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
 }
