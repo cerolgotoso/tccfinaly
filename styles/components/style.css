@@ -144,6 +144,9 @@ body{
     max-width: 400px;
     margin-inline: auto;
 }
+#imgdragao{
+    
+}
 }
 @media(width < 475px){
     .hero__title{
