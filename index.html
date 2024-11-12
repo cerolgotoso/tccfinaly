@@ -86,6 +86,29 @@
     </div>
     </div>
     <footer>
+        <div class="parallax"></div>
+        <nav class="menu">
+        
+                <div class="info-right">
+                    <button class="button1" onclick="">asa</button>
+                    <h6 class="titulo">𝔇𝔦𝔤𝔦𝔪𝔬𝔫 𝔢𝔳𝔬𝔩𝔲𝔱𝔦𝔬𝔫</h6>
+                    <p class="paragrafo1">Mundo digimon, fan page</p>
+                    <button class="menu-btn" onclick="">Evoluções</button>
+                
+        
+        </nav>
+           
+        <div class="info--rigt1">
+             <img class="imgdigimacaco" src="img/digi.jpg" alt="">
+            </div>
+            </nav>
+            <script>
+                window.addEventListener('scroll',function() {
+                    let scrollPosition = pageYOffset
+                    let parallax = document.querySelector('.parallax');
+                    parallax.style.backgraoundPositionY = (scrollPosition *3.5) +'px';
+                });
+            </script>
         <div class="container">
             <p>&copy; 2024 Minha Empresa. Todos os direitos reservados.</p>
             <ul class="social-media">
@@ -96,4 +119,4 @@
         </div>
     </footer>
 </body>
-</html> 
+</html>

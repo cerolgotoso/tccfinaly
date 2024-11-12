@@ -270,3 +270,51 @@ footer {
 .social-media a:hover {
     text-decoration: underline;
 }
+.menu{
+    filter: drop-shadow(0px 0px 25px purple);
+    height: 100vh;
+    background-color: 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: blue;
+}
+.parallax{
+    height: 100vh;
+    background-image: url(pokem.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    background-color: rgb(82, 4, 27);
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.titulo{
+    font-size: 99px;
+}
+.paragrafo{
+    color: blue;
+}
+.digimonn{
+    text-align: left;
+}
+.info--rigt1{
+    float: right;
+}
+.button1{
+    float: left;
+    text-align: left;
+    margin-top: 1px;
+    margin-right: 500px;
+}
+.meu-btn{
+    margin-left: 100px;
+}
